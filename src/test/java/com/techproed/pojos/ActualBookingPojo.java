@@ -1,0 +1,31 @@
+package com.techproed.pojos;
+//Not bu class response dan geln cevabı koyacağımız pojoyu oluşturmak için hazırlanmıştır.
+public class ActualBookingPojo {
+    private int bookingid;
+    private  BookingPojo booking;
+    public int getBookingid() {
+        return bookingid;
+    }
+    public void setBookingid(int bookingid) {
+        this.bookingid = bookingid;
+    }
+    public BookingPojo getBooking() {
+        return booking;
+    }
+    public void setBooking(BookingPojo booking) {
+        this.booking = booking;
+    }
+    public ActualBookingPojo() {
+    }
+    public ActualBookingPojo(int bookingid, BookingPojo booking) {
+        this.bookingid = bookingid;
+        this.booking = booking;
+    }
+    @Override
+    public String toString() {
+        return "ActualBookingPojo{" +
+                "bookingid=" + bookingid +
+                ", booking=" + booking +
+                '}';
+    }
+}
