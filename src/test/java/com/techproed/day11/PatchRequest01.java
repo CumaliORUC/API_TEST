@@ -4,7 +4,6 @@ import com.techproed.TestData.JsonPlaceHolder;
 import com.techproed.testBase.TestBaseJsonPlaceHolder;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.codehaus.jackson.annotate.JsonTypeInfo;
 import org.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Test;

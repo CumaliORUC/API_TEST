@@ -1,7 +1,6 @@
 package com.techproed.day05;
 
 import com.techproed.testBase.TestBaseBookerHerokupp;
-import com.techproed.testBase.TestBaseJsonPlaceHolder;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;

@@ -3,7 +3,6 @@ package com.techproed.day05;
 import com.techproed.testBase.TestBaseJsonPlaceHolder;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -14,7 +13,6 @@ import static org.hamcrest.Matchers.*;
 public class GetRequest06 extends TestBaseJsonPlaceHolder {
 
         /*
-    ​
         https://jsonplaceholder.typicode.com/todos/123 url'ine
      accept type'i "application/json" olan GET request'i yolladigimda
     gelen response’un
@@ -24,7 +22,6 @@ public class GetRequest06 extends TestBaseJsonPlaceHolder {
      ve response body'deki "userId"'nin 7
     ve "title" in "esse et quis iste est earum aut impedit"
      ve "completed" bolumunun false oldugunu test edin
-    ​
          */
 
     @Test
